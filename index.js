@@ -1,7 +1,7 @@
 const roles = {
-	admin: "../style/images/roles/admin.png",
-	student: "../style/images/roles/student.png",
-	lector: "../style/images/roles/lector.png"
+	admin: "./style/images/roles/admin.png",
+	student: "./style/images/roles/student.png",
+	lector: "./style/images/roles/lector.png"
 };
 
 const gradation = {
@@ -15,7 +15,7 @@ const users = [
 	{
 		name: "Jack Smith",
 		age: 23,
-		img: "../style/images/Users/JackSmith.png",
+		img: "./style/images/Users/JackSmith.png",
 		role: "student",
 		courses: [
 			{
@@ -31,13 +31,13 @@ const users = [
 	{
 		name: "Amal Smith",
 		age: 20,
-		img: "../style/images/Users/AmalSmith.png",
+		img: "./style/images/Users/AmalSmith.png",
 		role: "student"
 	},
 	{
 		name: "Noah Smith",
 		age: 43,
-		img: "../style/images/Users/NoahSmith.png",
+		img: "./style/images/Users/NoahSmith.png",
 		role: "student",
 		courses: [
 			{
@@ -49,7 +49,7 @@ const users = [
 	{
 		name: "Charlie Smith",
 		age: 18,
-		img: "../style/images/Users/CharlieSmith.png",
+		img: "./style/images/Users/CharlieSmith.png",
 		role: "student",
 		courses: [
 			{
@@ -65,7 +65,7 @@ const users = [
 	{
 		name: "Emily Smith",
 		age: 30,
-		img: "../style/images/Users/EmilySmith.png",
+		img: "./style/images/Users/EmilySmith.png",
 		role: "admin",
 		courses: [
 			{
@@ -88,7 +88,7 @@ const users = [
 	{
 		name: "Leo Smith",
 		age: 253,
-		img: "../style/images/Users/LeoSmith.png",
+		img: "./style/images/Users/LeoSmith.png",
 		role: "lector",
 		courses: [
 			{
